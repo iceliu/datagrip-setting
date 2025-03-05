@@ -29,5 +29,15 @@
       <jdbc-url>jdbc:postgresql://u19-test.cpoln6vjp1lw.ap-northeast-1.rds.amazonaws.com:5432/u19</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="TFE-root" uuid="60da2cf6-41c3-4bbd-9e78-77f85bf1d003">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://new-tfe-mariadb.cmz7hpa4t0bz.ap-northeast-1.rds.amazonaws.com:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="database.introspection.mysql.dbe5060" value="true" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
