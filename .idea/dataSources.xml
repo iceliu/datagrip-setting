@@ -64,5 +64,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/finvy</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="finvy@finvy.c3aoak22qvv3.ap-southeast-1.rds.amazonaws.com" uuid="cf400ad1-1171-4b62-8347-f0999b0b0dc0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://finvy.c3aoak22qvv3.ap-southeast-1.rds.amazonaws.com:5432/finvy</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
